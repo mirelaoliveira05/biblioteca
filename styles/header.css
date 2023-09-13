@@ -30,14 +30,28 @@
 }
 .lista-menu{
     display:none;
-    position:absolute
-    top:100%
+    position:absolute;
+    top:100%;
+    width: 60vw;
 }
 .container__botao:checked~.lista-menu{ 
     display:block;
 }
-    
+ .lista-menu_titulo,lista-menu_item{
+    padding:1em;
+    background-color: var(--branco);
+ }   
+ .lita-menu_titulo{
+    color:var(--amarelo);
+ }
+ .lita-menu_link{
+    background:var(--roxo-degrada);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+    text-transform:uppercase;
 
+ }
 
 @media screen and (min-width: 1024px){
     .container__titulo{
