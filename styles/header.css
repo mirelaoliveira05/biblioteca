@@ -63,6 +63,17 @@
     .container__titulo--negrito{
         font-weight: 700;
     }
+    .opçoẽs{
+        display:flex;
+    }
+    .opçoẽs_item{
+        padding:0 1em;
+        text-transform:uppercase;
+    }
+    .opçoẽs_link{
+        text-decoration:none;
+        color:black;
+    }
 }
 
 
